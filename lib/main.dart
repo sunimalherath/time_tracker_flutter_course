@@ -9,6 +9,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      title: 'Time Tracker',
+      theme: ThemeData(
+        primarySwatch: Colors.blueGrey
+      ),
+      home: Container(
+        color: Colors.white,
+      ),
+    );
   }
 }
