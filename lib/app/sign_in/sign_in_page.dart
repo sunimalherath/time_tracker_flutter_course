@@ -35,6 +35,7 @@ class SignInPage extends StatelessWidget {
             text: 'Sign in with Google',
             textColor: Colors.black87,
             onPressed: (){},
+            color: Colors.white,
           ),
         ],
       ),
