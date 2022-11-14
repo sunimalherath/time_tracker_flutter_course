@@ -11,6 +11,7 @@ class SignInPage extends StatelessWidget {
         title: const Text('Time Tracker'),
         elevation: 2.0,
       ),
+      backgroundColor: Colors.grey[300],
       body: _buildContent(),
     );
   }
